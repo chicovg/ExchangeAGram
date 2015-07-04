@@ -11,9 +11,9 @@
 		85526DA31B2AEF5E006FA5E1 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85526DA21B2AEF5E006FA5E1 /* FilterCell.swift */; };
 		85526DA81B2C6C86006FA5E1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85526DA71B2C6C86006FA5E1 /* ProfileViewController.swift */; };
 		85526DAD1B2CA5F9006FA5E1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85526DAC1B2CA5F9006FA5E1 /* FacebookSDK.framework */; };
+		8563775C1B48200800195D2C /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8563775B1B48200800195D2C /* FeedItem.swift */; };
 		857657301B2EE3D000326F85 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8576572F1B2EE3D000326F85 /* MapViewController.swift */; };
 		857657321B2EE5C600326F85 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857657311B2EE5C600326F85 /* MapKit.framework */; };
-		858EB5131B30414A000D4A27 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858EB5121B30414A000D4A27 /* FeedItem.swift */; };
 		85F0D6CA1B02E6B700C06531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F0D6C91B02E6B700C06531 /* AppDelegate.swift */; };
 		85F0D6CD1B02E6B700C06531 /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85F0D6CB1B02E6B700C06531 /* ExchangeAGram.xcdatamodeld */; };
 		85F0D6D21B02E6B700C06531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F0D6D01B02E6B700C06531 /* Main.storyboard */; };
@@ -41,9 +41,9 @@
 		85526DA71B2C6C86006FA5E1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		85526DAB1B2C9FC6006FA5E1 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		85526DAC1B2CA5F9006FA5E1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		8563775B1B48200800195D2C /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		8576572F1B2EE3D000326F85 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		857657311B2EE5C600326F85 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		858EB5121B30414A000D4A27 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedItem.swift; path = ../FeedItem.swift; sourceTree = "<group>"; };
 		85F0D6C41B02E6B700C06531 /* ExchangeAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F0D6C81B02E6B700C06531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85F0D6C91B02E6B700C06531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				85F0D6CB1B02E6B700C06531 /* ExchangeAGram.xcdatamodeld */,
-				858EB5121B30414A000D4A27 /* FeedItem.swift */,
+				8563775B1B48200800195D2C /* FeedItem.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 				85F0D6CA1B02E6B700C06531 /* AppDelegate.swift in Sources */,
 				85F0D6EF1B03697900C06531 /* FeedCell.swift in Sources */,
 				857657301B2EE3D000326F85 /* MapViewController.swift in Sources */,
-				858EB5131B30414A000D4A27 /* FeedItem.swift in Sources */,
+				8563775C1B48200800195D2C /* FeedItem.swift in Sources */,
 				85F0D6ED1B02E98A00C06531 /* FeedViewController.swift in Sources */,
 				85526DA81B2C6C86006FA5E1 /* ProfileViewController.swift in Sources */,
 				85F0D6CD1B02E6B700C06531 /* ExchangeAGram.xcdatamodeld in Sources */,
